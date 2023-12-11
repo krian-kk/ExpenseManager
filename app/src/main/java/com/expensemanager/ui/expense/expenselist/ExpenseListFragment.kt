@@ -160,7 +160,7 @@ class ExpenseListFragment : Fragment(), ClickCallback {
                 }
 
                 is UiState.Error -> {
-                    Toast.makeText(context, "Something went wrong", Toast.LENGTH_LONG).show()
+                    Toast.makeText(context, context?.getString(R.string.something_went_wrong), Toast.LENGTH_LONG).show()
                 }
 
                 is UiState.Loading -> {

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ExpenseManager</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="enter_all_fields">Enter all the field values</string>
 </resources>
